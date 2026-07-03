@@ -1,7 +1,9 @@
 # TF-SSD: A Strong Pipeline via Synergic Mask Filter for Training-free Co-salient Object Detection
 
 > **CVPR 2026**
+> 
 > Zhijin He\*, Shuo Jin\*, Siyue Yu†, Shuwei Wu, Bingfeng Zhang, Li Yu, Jimin Xiao
+> 
 > XJTLU · University of Liverpool · China University of Petroleum · NUIST
 
 [![Paper](https://img.shields.io/badge/Paper-CVPR%202026-blue)](https://openaccess.thecvf.com/content/CVPR2026/papers/He_TF-SSD_A_Strong_Pipeline_via_Synergic_Mask_Filter_for_Training-free_CVPR_2026_paper.pdf)
