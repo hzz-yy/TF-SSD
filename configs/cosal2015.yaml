@@ -1,0 +1,12 @@
+defaults:
+  - default
+
+data:
+  dataset_name: CoSal2015
+
+qmg:
+  tau_area: 0.008
+  top_tr: 10
+
+isf:
+  top_t: 3

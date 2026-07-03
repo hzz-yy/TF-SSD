@@ -1,0 +1,16 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+Pillow>=9.5.0
+opencv-python>=4.7.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+
+# SAM — install separately from source:
+#   pip install git+https://github.com/facebookresearch/segment-anything.git
+
+# DINO vision_transformer.py — download from:
+#   https://github.com/facebookresearch/dino/blob/main/vision_transformer.py
+#   and place in the project root directory

@@ -1,0 +1,13 @@
+defaults:
+  - default
+
+data:
+  dataset_name: CoCA
+
+qmg:
+  tau_area: 0.005
+  top_tr: 12
+
+isf:
+  top_t: 4
+  fallback_thresh: 0.08

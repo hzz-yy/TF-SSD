@@ -1,0 +1,43 @@
+device: cuda
+
+sam:
+  checkpoint: ./checkpoints/sam_vit_h_4b8939.pth
+  model_type: vit_h
+  points_per_side: 32
+  pred_iou_thresh: 0.80
+  stability_score_thresh: 0.80
+
+dino:
+  checkpoint: ./checkpoints/dino_vitbase8_pretrain.pth
+  arch: vit_base
+  patch_size: 8
+
+qmg:
+  tau_area: 0.01
+  tau_con: 0.85
+  r_min: 0.15
+  r_max: 0.70
+  alpha: 0.70
+  beta: 0.30
+  sigma: 0.70
+  gamma: 1.50
+  top_tr: 10
+  edge_touch_thresh: 5
+  edge_coverage_thresh: 0.80
+  min_touching_edges: 3
+  stability_thresh: 0.80
+
+isf:
+  top_t: 6
+  fallback_thresh: 0.10
+  fallback_percentile: 70.0
+
+data:
+  dataset_root: ./datasets
+  dataset_name: CoSal2015
+  output_dir: ./predictions
+
+eval:
+  pred_dir: ./predictions
+  num_thresh: 255
+  beta2: 0.30
